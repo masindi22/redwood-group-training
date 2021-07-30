@@ -1,0 +1,248 @@
+/* variables */
+:root{
+    --blue: #0283cf;
+    --indigo: #00afea;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --yellow: #f9f871;
+    --green: #5b9330;
+    --teal: #178acc;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #9b9b9b;
+    --gray-dark: #5f5f5f;
+    --primary: #0283cf;
+    --secondary: #00a5dd;
+    --success: #5b9330;
+    --info: #17a2b8;
+    --warning: #f9f871;
+    --danger: #dc3545;
+    --light: #f1f2f2;
+    --dark: #5f5f5f;
+    --tertiary: #bbbcbc;
+    --black: #000;
+    --lighter: #fafafa;
+    --silver: silver;
+    --grey: #727272;
+    --dark-grey: #9b9b9b;
+    --text-grey: #1b1f23;
+    --grey-dark: #727272;
+    --orange: #fa982e;
+    --gray-50: #505050;
+    --green-status: #70ad47;
+    --active: #22c093;
+    --notification-blue: #3676c0;
+    --dark-blue: #0077c8;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1260px;
+    --font-family-sans-serif: "Poppins",sans-serif;
+    --font-family-monospace: "Quicksand",Consolas,"Liberation Mono","Courier New",monospace;
+--width-container: 100vw;
+--color-text: --black;
+}
+/* Resets*/
+* {
+    box-sizing: border-box;
+} 
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
+    background-color:#FFFFFF;
+}
+.row1 {
+    width: 100%;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content: space-between;   
+}
+.row2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content: space-between;   
+}
+.row3{
+        width: 100%;
+        margin-bottom: 1rem;
+        display:flex;
+        justify-content: space-between;   
+}
+.row4{
+    width: 100%;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content: space-between;   
+}
+
+.container{
+    background-color: rgb(124, 106, 106);
+}
+
+/* Nav Section */
+.bar{
+    color:#707070;
+    font-family: Segoe UI ;
+    font-size: 30px ;
+    font-weight: bold ;
+    height: 5rem;
+}
+a{
+    
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.navbar_items{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    padding-left: 100rem;
+    padding:-4rem
+
+}
+.navbar_item{
+    display: flex;
+}
+.navbar_link{
+    text-decoration: none;
+    
+}
+
+/* Design inside the navbar */
+.bar1{
+    border-radius: 10px;
+    width: 460px;
+    height: 70px;
+    margin: 5px 10px;/*move around*/
+    background-color:var(--white);
+    color: var(--dark-blue );
+    font-family: Segoe UI;
+    font-weight: bolder;
+    font-size:50px;
+}
+
+/*Main*/
+.card1{
+    background-color:#CCCCCC;
+    min-height: 10rem ;
+
+}
+.card2{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    width: 44.5rem;
+    height: 350px;
+    
+    
+}
+.card3{
+    background-color:blue;
+    border-radius: 5px;
+    width: 44.5rem;
+    height: 350px;
+}
+/* Prices */
+.price1{
+    font-family: Segoe UI;
+    font-weight:regular;
+    font-size: 16px;
+    color: var(--white);
+    width :50%;
+    height:auto; 
+    margin-right: -130px;
+    text-decoration: line-through red;
+    text-align: right;
+}
+.price-now{
+    font-family: Segoe UI;
+        font-weight:bolder;
+        font-size: 25px;
+        color: var(--white);
+    
+}
+.price-term{
+    font-family: Segoe UI;
+        font-weight:bold;
+        font-size: 12px;
+        color: var(--white);
+}
+.price2{
+    font-family: Segoe UI;
+    font-weight:bold;
+    font-size: 16px;
+    color: var(--notification-blue);
+}
+.prices{
+    font-family: Segoe UI;
+    color: var(--notification-blue);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.month{
+    font-family: Segoe UI;
+    color: #707070;
+    font-weight: regular;
+    font-size: 10px;
+
+}
+/* Heading of cards */
+.head1{
+    font-family: Segoe UI;
+    font-weight: bolder;
+     color: var(--white);
+     font-size: 30px;
+}
+.head2{
+    font-family: Segoe UI;
+    font-weight: bolder;
+     color: #1F6CE6;
+     font-size: 30px;
+}
+
+/* Footer */
+a{
+    
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.footer_items{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    padding:-4rem;
+
+}
+.footer_item{
+    display: flex;
+}
+.footer_link{
+    text-decoration: none;
+    
+}
+.foot{
+    display: flexbox;
+    justify-content:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+
+

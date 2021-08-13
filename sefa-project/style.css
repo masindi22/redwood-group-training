@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    
+}
+/* Index */
+.container0{
+  width:65%;
+  margin: 0 auto;
+  padding-top: 5em;
+  color: #333;
+}
+.header{
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  
+     
+}
+.sefa{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#333;
+  font-size: 7rem;
+  font-weight: bolder;
+  top:8rem;
+  
+  
+}
+.sefa2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  font-weight: lighter;
+}
+.navbar1{
+      width: 35%;
+      height: 5rem;
+      background-color: orangered;
+      border-bottom-left-radius: 3rem;
+      margin-left: 23rem;
+      position: absolute;
+      top:0;
+     
+  
+}
+.navbar{
+  width: 100%;
+  height: 8rem;
+  background-color:orangered;
+
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
+ 
+ 
+}
+.navbar_items1{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  
+}
+.navbar_item1{
+  display: flex;
+  padding: 2rem;
+ 
+}
+.navbar_items{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+.navbar_item{
+  display: flex;
+ 
+}
+.navbar_link{
+  text-decoration: none;
+  color: white;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  
+}
+.link_special{
+background-color: #333;
+align-self: stretch;
+text-transform: uppercase;
+color: white;
+list-style: none;
+text-decoration: none;
+/* width: 200px; */
+/* height: 100%; */
+text-align: center;
+margin: auto;
+/* padding-top: 20px; */
+font-size: small;
+padding: 1rem;
+  width: 100%;
+   
+ }
+.hero_section{
+  width: 100%;
+  height:36rem ;
+  background-image: url("peer image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image{
+  max-width: 100%;
+  height: auto;
+}
+/* Access Section */
+h2{
+  font-size: 30px;
+
+}
+h3{
+  font-size: 30px;
+  color: orangered;
+}
+h3,h2{
+  width:50%;
+  height:60px;
+  margin: 0;
+  padding:0;
+  display: inline;
+  font-weight: normal;
+  
+
+}
+.Access{
+  padding-left: 0px;
+  text-align: center;
+}
+.col-1{
+  width: calc((100% - 2 * 1rem)/3);
+}
+.row{
+  width: 100%;
+  margin-bottom: 4rem;
+  display:flex;
+  justify-content: space-between; 
+  
+}
+/* Our services design */
+.container1{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 5em;
+    color: #333;
+}
+.heading{
+    color: white;
+    position: absolute;
+    top: 90px;
+    margin-bottom: 30px;
+}
+.section-service {
+    background-image: url(images/services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  .section-service .col_1_2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1.5rem;
+    width: 60%;
+  }
+  .services__text {
+    font-size: 1.4rem;
+    margin-top: 9rem;
+  }
+  .services__text p {
+    margin-top: 1.6rem;
+    
+  }
+  .services__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-weight: 700;
+  }
+  .services__item {
+    margin-top: 2rem;
+    /* font-weight: bolder;*/
+    font-size: 16px; 
+    /* list-style:; */
+  }
+  .heading-1 {
+    font-size: 3rem;
+    position: relative;
+    width: 100%;
+  }
+   .heading-1::after { 
+    content: "";
+    position: absolute;
+    width: 6rem;
+    height: 0.2rem;
+    bottom: -0.1rem;
+    left: 0;
+    background-color: white;
+  }
+
+  
+/* Why choose sefa design */
+ .container1{ 
+     width: 65%;
+     margin: 0 auto;
+    background-color: white;
+    padding-top: 1em;   
+}
+/* col section */
+.col-1_1,
+.col-1_2{
+    background-color: white;  
+}
+.col-1_1{
+    width: calc((100% - 2 * 1rem)/3);
+}
+.col-1_2{
+    width: calc((100% - 2 * 1rem)/3);
+} 
+
+/* image */
+img{
+    width:100%;
+    height: 100%;
+}
+/* rows */
+.row{
+    width: 100%;
+    margin-bottom: 4rem;
+    display:flex;
+    justify-content: space-between; 
+    
+}
+/* bar */
+.bar{
+    width: 100%;
+     height: 0 auto; 
+    background-color:silver;
+    font-size: 11px;
+    padding: 10px;
+    margin-top: -2%;
+    
+
+}
+
+/* Heading */
+.heading-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-bottom: 5rem;
+    position: relative;
+    
+}
+.heading-2::after { 
+    content: "";
+    position:absolute;
+    width: 5rem;
+    height: 0.2rem;
+    top: 3rem; 
+    left: 0rem; 
+    background-color:orangered;
+  }
+
+  /* Footer section */
+  footer{
+    background-color: orangered;
+    width: 100%;
+    height: 20rem;
+    color: white;
+    
+  }
+
+  .container2{
+    width: 65%;
+    margin: 0 auto; 
+    padding-top: 2em;
+    font: weight 0; 
+    
+}
+
+.footer_items{
+  display: flex;
+  justify-content: space-evenly; 
+  list-style: none;
+  padding: 0;
+}
+
+.footer_link{
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+.design{
+  /* justify-content: space-between; */
+  text-align: center;
+}
